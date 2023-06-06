@@ -1,0 +1,16 @@
+{
+  "name": "infinity-dream-park",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "home": "astro dev --host"
+  },
+  "dependencies": {
+    "astro": "^2.5.6"
+  }
+}
