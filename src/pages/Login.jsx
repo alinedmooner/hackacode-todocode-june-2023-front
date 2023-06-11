@@ -1,26 +1,20 @@
-import Logo from '../../public/logo.svg'
+import Logo from '/logo.svg'
 
 const Login = () => {
   return (
     <>
-      <div className="main-container">
-        <img className="logo" src={Logo} alt="company logo" />
-        <h1 className="main-text">Infinity Dream Park</h1>
-        <h2 className="main-title" style={{'margin-top': '0', 'font-size':'3rem'}}>Login</h2>
-        <form className='main-container' action="" method='get' style={{'padding-top': '0'}}>
-          <div>
-            <input type="text" placeholder='John' />
-            <input type="text" placeholder='Doe'/>
-          </div>
-          <div>
-            <input type="text" placeholder='johndoe@infinitydream.com' style={{'width':'22.3rem'}}/>
-          </div>
-          <div>
-            <input type="password" style={{'width':'22.3rem'}}/>
-          </div>
-          <button className='main-button' style={{'margin': '0', 'width':'22.9rem', 'margin-top':'0.3rem', 'height':'2.5rem'}}>Login</button>
+      <div className="form-container">
+        <img className="logo" src={Logo} alt="company logo" style={{ width: 144, opacity: 0.3 }} />
+        <h1 className='main-title' style={{ fontSize: '3rem' }}>Infinity Dream Park</h1>
+        <h2 className="main-text" style={{ fontWeight: 300 }}>Welcome back</h2>
+        <form className='main-container' action="" method=''>
+          <label htmlFor="" style={{ color: 'white', opacity: 0.5, padding: '0.5rem' }}>Username</label>
+          <input type="text" placeholder='johndoe' style={{ 'width': '21rem' }}/>
+          <label htmlFor="" style={{ color: 'white', opacity: 0.5, padding: '0.5rem' }}>Password</label>
+          <input type="password" placeholder='********' style={{ 'width': '21rem' }}/>
+          <button className='' type='submit' style={{ 'width': '21.3rem' }}>Sign In</button>
         </form>
-      <a className='forgot-password' href="">Forgot password?</a>
+        <a className='forgot-password' href="" style={{ 'paddingBottom': '2rem', 'fontStyle':'italic' }}>Forgot password?</a>
       </div>
     </>
   )

@@ -1,13 +1,13 @@
-import Logo from '../../public/logo.svg'
+import Logo from '/logo.svg'
 
 function Home() {
   return (
     <>
       <div className="main-container">
-        <img className="logo" src={Logo} alt="company logo" />
-        <p className="main-text">Welcome to Dashboard of</p>
+        <img className="logo" src={Logo} alt="company logo" style={{ width: 144, opacity: 0.3 }}/>
+        <p className="main-text">Welcome to</p>
         <h1 className="main-title">Infinity Dream Park</h1>
-        <p className="secondary-text">Login depending on your rank</p>
+        <p className="secondary-text">An Amusement and Adventure Park</p>
         <div className="main-button-container">
           <a className="main-button" href="/login">Login</a>
         </div>
