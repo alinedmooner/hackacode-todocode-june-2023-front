@@ -1,23 +1,26 @@
-import Logo from '/logo.svg'
+import React from 'react';
+import Logo from '../assets/logo.svg';
 
-const Login = () => {
+function Login() {
   return (
-    <>
-      <div className="form-container">
-        <img className="logo" src={Logo} alt="company logo" style={{ width: 144, opacity: 0.3 }} />
-        <h1 className='main-title' style={{ fontSize: '3rem' }}>Infinity Dream Park</h1>
-        <h2 className="main-text" style={{ fontWeight: 300 }}>Welcome back</h2>
-        <form className='main-container' action="" method=''>
-          <label htmlFor="" style={{ color: 'white', opacity: 0.5, padding: '0.5rem' }}>Username</label>
-          <input type="text" placeholder='johndoe' style={{ 'width': '21rem' }}/>
-          <label htmlFor="" style={{ color: 'white', opacity: 0.5, padding: '0.5rem' }}>Password</label>
-          <input type="password" placeholder='********' style={{ 'width': '21rem' }}/>
-          <button className='' type='submit' style={{ 'width': '21.3rem' }}>Sign In</button>
-        </form>
-        <a className='forgot-password' href="" style={{ 'paddingBottom': '2rem', 'fontStyle':'italic' }}>Forgot password?</a>
-      </div>
-    </>
-  )
+    <div className="form-container">
+      <img className="logo" src={Logo} alt="company logo" />
+      <h1 className="main-title">Infinity Dream Park</h1>
+      <h2 className="main-text">Welcome back</h2>
+      <form className="main-container" action="" method="">
+        <label htmlFor="user-name">
+          Username
+          <input type="text" id="user-name" placeholder="johndoe" />
+        </label>
+        <label htmlFor="text">
+          Password
+          <input type="password" id="password" placeholder="********" />
+        </label>
+        <button className="" type="submit">Sign In</button>
+      </form>
+      <a className="forgot-password" href="a">Forgot password?</a>
+    </div>
+  );
 }
 
-export default Login
+export default Login;
