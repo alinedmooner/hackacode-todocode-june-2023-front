@@ -1,8 +1,6 @@
 # Proceso de desarrollo
 
-## Wireframes (Parte 1)
-
-Teniendo en cuenta la consigna se realizaron los primeros **wireframes** para modelar la interfaz gráfica:
+## Wireframes
 
 ### Admin Dashboard
 
@@ -44,9 +42,7 @@ Teniendo en cuenta la consigna se realizaron los primeros **wireframes** para mo
 
 <img src="./wireframes/employee-user-change-game-hours.jpg" width=377px height=233px>
 
-## Mockups (Parte 1)
-
-Luego de tener una idea inicial mediante los **wireframes** se realizaron los primeros **mockups** de la interfaz gráfica mediante **Figma**:
+## Mockups (Figma)
 
 ### Home Page
 
@@ -60,7 +56,7 @@ Luego de tener una idea inicial mediante los **wireframes** se realizaron los pr
 
 <img src="./mockups/LoadingPage.JPG" width=377px height=233px>
 
-### Admin Dashboard (Figma)
+### Admin Dashboard
 
 <img src="./mockups/AdminDashboard.JPG" width=377px height=233px>
 
@@ -76,11 +72,11 @@ Luego de tener una idea inicial mediante los **wireframes** se realizaron los pr
 
 <img src="./mockups/AdminReports.JPG" width=377px height=233px>
 
-### Tickets Sold Report (Figma)
+### Tickets Sold Report
 
 <img src="./mockups/TicketsSold.JPG" width=377px height=233px>
 
-### Employee Dashboard (Figma)
+### Employee Dashboard
 
 <img src="./mockups/EmployeeDashboard.JPG" width=377px height=233px>
 
@@ -100,9 +96,20 @@ Luego de tener una idea inicial mediante los **wireframes** se realizaron los pr
 
 <img src="./mockups/ChangeGameHours.JPG" width=377px height=233px>
 
-## Maquetación (Parte 1)
+## Maquetación
 
-Teniendo en cuenta los **mockups** se dio inicio a la codificación mediante **React**, realizando un despliegue para analizar su comportamiento en producción en **Netlify**.
+Tecnologías utilizadas:
+
+- Vite
+- React
+- ESlint
+- Stylelint
+- React Router
+- Redux
+
+### Código
+
+https://github.com/alinedmooner/hackacode-todocode-june-2023-front/tree/main
 
 ### Despliegue
 
