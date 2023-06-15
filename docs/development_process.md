@@ -42,6 +42,31 @@
 
 <img src="./wireframes/employee-user-change-game-hours.jpg" width=377px height=233px>
 
+### 404
+
+<img src="./wireframes/yoshi_404.JPG" width=377px height=233px>
+
+
+### List Component
+
+<img src="./wireframes/list-component.JPG" width=377px height=233px>
+
+### Sell Tickets
+
+<img src="./wireframes/sell-tickets.JPG" width=377px height=233px>
+
+### Bill Check
+
+<img src="./wireframes/bill-check.JPG" width=377px height=233px>
+
+### Tickets
+
+<img src="./wireframes/tickets.JPG" width=377px height=233px>
+
+### Other Change Game Hours
+
+<img src="./wireframes/change-game-hours.JPG" width=377px height=233px>
+
 ## Mockups (Figma)
 
 ### Home Page
