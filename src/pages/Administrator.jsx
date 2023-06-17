@@ -7,7 +7,7 @@ function Administrator() {
         <h2>John Doe</h2>
         <div>EN</div>
         <div>Theme</div>
-        <img src="" alt="" />
+        <img src="" alt="Profile" />
       </header>
       <nav>
         <h1>
