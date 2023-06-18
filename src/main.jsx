@@ -11,6 +11,7 @@ import Login from './pages/Login';
 import Employee from './pages/Employee';
 import Administrator from './pages/Administrator';
 import Sell from './pages/Sell';
+import Check from './pages/Check';
 import './styles/global.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -23,6 +24,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="/employee" element={<Employee />} />
           <Route path="/administrator" element={<Administrator />} />
           <Route path="/sell" element={<Sell />} />
+          <Route path="/check" element={<Check />} />
         </Route>,
       ))
     }
