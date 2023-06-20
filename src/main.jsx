@@ -15,7 +15,6 @@ import Employee from './pages/Employee';
 import Administrator from './pages/Administrator';
 import Sell from './pages/Sell';
 import Check from './pages/Check';
-import './styles/global.css';
 
 const router = createBrowserRouter(createRoutesFromElements(
   <Route path="/" element={<App />}>
