@@ -5,7 +5,7 @@ export const employeeApiSlice = apiSlice.injectEndpoints({
   endpoints: (builder) => ({
     getEmployees: builder.query({
       query: () => ({
-        url: EMPLOYEESS_URL,
+        url: EMPLOYEES_URL,
       }),
       keepUnusedDataFor: 3,
     }),
