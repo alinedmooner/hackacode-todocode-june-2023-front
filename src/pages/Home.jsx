@@ -1,10 +1,29 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Categories from '../components/Categories'
-import categories from '../data/categories'
 import Attractions from '../components/Attractions'
-import attractions from '../data/attractions'
 
 function Home () {
+  const [categories, setCategories] = useState([])
+  const [attractions, setAttractions] = useState([])
+
+  useEffect(() => {
+    fetch('http://localhost:6173/api/categories')
+
+      .then((response) => response.json())
+      .then((data) => {
+        setCategories(data)
+      })
+  }, [])
+
+  useEffect(() => {
+    fetch('http://localhost:6173/api/attractions')
+
+      .then((response) => response.json())
+      .then((data) => {
+        setAttractions(data)
+      })
+  }, [])
+
   return (
     <>
       <nav>navigation</nav>

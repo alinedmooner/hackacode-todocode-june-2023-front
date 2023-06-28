@@ -1,4 +1,4 @@
-import bcrypt from 'bcryptjs';
+import bcrypt from 'bcryptjs'
 const employees = [
   {
     name: 'Jane Smith',
@@ -7,7 +7,7 @@ const employees = [
     isAdministrator: true,
     attractions: ['Attraction 1', 'Attraction 2', 'Attraction 3'],
     categories: ['Arcade Games'],
-    image: 'images/employee_profile/images/employee_profile/.webp.webp',
+    image: 'images/employee_profile/images/employee_profile/.webp.webp'
   },
   {
     name: 'John Doe',
@@ -16,7 +16,7 @@ const employees = [
     isAdministrator: false,
     attractions: ['Attraction 2', 'Attraction 4', 'Attraction 6', 'Attraction 8'],
     categories: ['Arcade Games'],
-    image: 'images/employee_profile/austin-distel-7uoMmzPd2JA-unsplash.webp',
+    image: 'images/employee_profile/austin-distel-7uoMmzPd2JA-unsplash.webp'
   },
   {
     name: 'Michael Johnson',
@@ -25,7 +25,7 @@ const employees = [
     isAdministrator: false,
     attractions: ['Attraction 1', 'Attraction 3', 'Attraction 5', 'Attraction 7', 'Attraction 9'],
     categories: ['Arcade Games'],
-    image: 'images/employee_profile/ben-den-engelsen-YUu9UAcOKZ4-unsplash.webp',
+    image: 'images/employee_profile/ben-den-engelsen-YUu9UAcOKZ4-unsplash.webp'
   },
   {
     name: 'Emily Davis',
@@ -34,7 +34,7 @@ const employees = [
     isAdministrator: false,
     attractions: ['Attraction 2', 'Attraction 4'],
     categories: ['Arcade Games'],
-    image: 'images/employee_profile/christopher-campbell-rDEOVtE7vOs-unsplash.webp',
+    image: 'images/employee_profile/christopher-campbell-rDEOVtE7vOs-unsplash.webp'
   },
   {
     name: 'Roberta Wilson',
@@ -43,7 +43,7 @@ const employees = [
     isAdministrator: false,
     attractions: ['Attraction 2', 'Attraction 4', 'Attraction 6', 'Attraction 8'],
     categories: ['Arcade Games'],
-    image: 'images/employee_profile/edward-cisneros-_H6wpor9mjs-unsplash.webp',
+    image: 'images/employee_profile/edward-cisneros-_H6wpor9mjs-unsplash.webp'
   },
   {
     name: 'Olivia Thompson',
@@ -52,7 +52,7 @@ const employees = [
     isAdministrator: false,
     attractions: ['Attraction 2', 'Attraction 4', 'Attraction 6', 'Attraction 8'],
     categories: ['Arcade Games'],
-    image: 'images/employee_profile/freestocks-9UVmlIb0wJU-unsplash.webp',
+    image: 'images/employee_profile/freestocks-9UVmlIb0wJU-unsplash.webp'
   },
   {
     name: 'Ana Clark',
@@ -61,7 +61,7 @@ const employees = [
     isAdministrator: false,
     attractions: ['Attraction 3', 'Attraction 5', 'Attraction 7', 'Attraction 9'],
     categories: ['Arcade Games'],
-    image: 'images/employee_profile/jake-nackos-IF9TK5Uy-KI-unsplash.webp',
+    image: 'images/employee_profile/jake-nackos-IF9TK5Uy-KI-unsplash.webp'
   },
   {
     name: 'Sony Adams',
@@ -70,7 +70,7 @@ const employees = [
     isAdministrator: false,
     attractions: ['Attraction 1', 'Attraction 9'],
     categories: ['Arcade Games'],
-    image: 'images/employee_profile/joseph-gonzalez-iFgRcqHznqg-unsplash.webp',
+    image: 'images/employee_profile/joseph-gonzalez-iFgRcqHznqg-unsplash.webp'
   },
   {
     name: 'Israel Rodriguez',
@@ -79,7 +79,7 @@ const employees = [
     isAdministrator: false,
     attractions: ['Attraction 1', 'Attraction 9'],
     categories: ['Arcade Games'],
-    image: 'images/employee_profile/lesly-juarez-RukI4qZGlQs-unsplash.webp',
+    image: 'images/employee_profile/lesly-juarez-RukI4qZGlQs-unsplash.webp'
   },
   {
     name: 'Alexander Baker',
@@ -88,7 +88,7 @@ const employees = [
     isAdministrator: false,
     attractions: ['Attraction 1', 'Attraction 9'],
     categories: ['Arcade Games'],
-    image: 'images/employee_profile/linkedin-sales-solutions-pAtA8xe_iVM-unsplash.webp',
+    image: 'images/employee_profile/linkedin-sales-solutions-pAtA8xe_iVM-unsplash.webp'
   },
   {
     name: 'Liana Hamilton',
@@ -97,7 +97,7 @@ const employees = [
     isAdministrator: false,
     attractions: ['Attraction 4', 'Attraction 5', 'Attraction 6', 'Attraction 7'],
     categories: ['Arcade Games'],
-    image: 'images/employee_profile/stefan-stefancik-QXevDflbl8A-unsplash.webp',
+    image: 'images/employee_profile/stefan-stefancik-QXevDflbl8A-unsplash.webp'
   },
   {
     name: 'Leo Messi',
@@ -106,8 +106,8 @@ const employees = [
     isAdministrator: false,
     attractions: ['Attraction 4', 'Attraction 5', 'Attraction 6', 'Attraction 7'],
     categories: ['Arcade Games'],
-    image: 'images/employee_profile/taylor-8Vt2haq8NSQ-unsplash.webp',
-  },
-];
+    image: 'images/employee_profile/taylor-8Vt2haq8NSQ-unsplash.webp'
+  }
+]
 
-export default employees;
+export default employees

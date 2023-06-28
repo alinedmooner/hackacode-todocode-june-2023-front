@@ -6,7 +6,7 @@ const attractions = [
     startTime: '10:00',
     endTime: '16:00',
     image: '/images/arcade_games/carl-raw-8Gdayy2Lhi0-unsplash.webp',
-    description: 'Description 1',
+    description: 'Description 1'
   },
   {
     category: 'Arcade Games',
@@ -15,7 +15,7 @@ const attractions = [
     startTime: '09:30',
     endTime: '17:00',
     image: '/images/arcade_games/cassidy-james-blaede-1lzJt360gkE-unsplash.webp',
-    description: 'Description 2',
+    description: 'Description 2'
   },
   {
     category: 'Arcade Games',
@@ -24,7 +24,7 @@ const attractions = [
     startTime: '11:00',
     endTime: '18:00',
     image: '/images/arcade_games/element5-digital-zrICpZVQZYA-unsplash.webp',
-    description: 'Description 3',
+    description: 'Description 3'
   },
   {
     category: 'Arcade Games',
@@ -33,7 +33,7 @@ const attractions = [
     startTime: '10:30',
     endTime: '15:30',
     image: '/images/arcade_games/joshua-bartell-eeX7MYk3HcY-unsplash.webp',
-    description: 'Description 4',
+    description: 'Description 4'
   },
   {
     category: 'Arcade Games',
@@ -42,7 +42,7 @@ const attractions = [
     startTime: '11:30',
     endTime: '17:30',
     image: '/images/arcade_games/kevin-borrill-AoMd3sk9Cw0-unsplash.webp',
-    description: 'Description 5',
+    description: 'Description 5'
   },
   {
     category: 'Arcade Games',
@@ -51,7 +51,7 @@ const attractions = [
     startTime: '09:00',
     endTime: '16:30',
     image: '/images/arcade_games/kyle-nieber-siMO8TWzLYM-unsplash.webp',
-    description: 'Description 6',
+    description: 'Description 6'
   },
   {
     category: 'Arcade Games',
@@ -60,7 +60,7 @@ const attractions = [
     startTime: '12:00',
     endTime: '19:00',
     image: '/images/arcade_games/matt-chris-pua-_aSOc5RT-8U-unsplash.webp',
-    description: 'Description 7',
+    description: 'Description 7'
   },
   {
     category: 'Arcade Games',
@@ -69,7 +69,7 @@ const attractions = [
     startTime: '10:00',
     endTime: '15:00',
     image: '/images/arcade_games/sean-foster-gRTPTJwmjxU-unsplash.webp',
-    description: 'Description 8',
+    description: 'Description 8'
   },
   {
     category: 'Arcade Games',
@@ -78,8 +78,8 @@ const attractions = [
     startTime: '14:00',
     endTime: '20:00',
     image: '/images/arcade_games/senad-palic-Qcefx5xENeA-unsplash.webp',
-    description: 'Description 9',
-  },
-];
+    description: 'Description 9'
+  }
+]
 
-export default attractions;
+export default attractions
