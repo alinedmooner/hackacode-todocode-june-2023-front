@@ -1,12 +1,12 @@
-import React from 'react';
-import Categories from '../components/Categories';
-import categories from '../data/categories';
-import Attractions from '../components/Attractions';
-import attractions from '../data/attractions';
+import React from 'react'
+import Categories from '../components/Categories'
+import categories from '../data/categories'
+import Attractions from '../components/Attractions'
+import attractions from '../data/attractions'
 
-function Home() {
-	return (
-		<>
+function Home () {
+  return (
+    <>
       <nav>navigation</nav>
       <main>
         <h1>Home</h1>
@@ -18,8 +18,8 @@ function Home() {
         ))}
       </main>
       <footer>footer</footer>
-		</>
-	);
+    </>
+  )
 }
 
-export default Home;
+export default Home
