@@ -1,0 +1,1 @@
+SPA application for the operation of an amusement park.
