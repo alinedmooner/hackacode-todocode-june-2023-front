@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Mona Sans";
+  font-weight: 200 900;
+  font-stretch: 75% 125%;
+  src:
+    url("/Mona-Sans.woff2") format("woff2"),
+    url("/Mona-Sans.woff") format("woff"),
+    url("/Mona-Sans.woff2") format("truetype");
+}
+
