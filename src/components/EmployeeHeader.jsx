@@ -1,19 +1,20 @@
 import React from 'react'
+import image from '/images/employee_profile/aiony-haust-3TLl_97HNJo-unsplash.webp'
 
 function EmployeeHeader () {
   return (
-    <header>
-      <div>
+    <header className='employee-header'>
+      <div className='header-item'>
         EN
       </div>
-      <div>
+      <div className='header-item'>
         Dark
       </div>
-      <div>
+      <div className='header-item'>
         Employee name
       </div>
-      <div>
-        <img src="" alt="Employee profile" />
+      <div className='header-item'>
+        <img className='profile-image' src={image} alt="Employee profile" />
       </div>
     </header>
   )
