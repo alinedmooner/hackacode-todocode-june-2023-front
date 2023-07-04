@@ -5,5 +5,141 @@
   src:
     url("/Mona-Sans.woff2") format("woff2"),
     url("/Mona-Sans.woff") format("woff"),
-    url("/Mona-Sans.woff2") format("truetype");
+    url("/Mona-Sans.ttf") format("truetype");
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.employee-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+.employee-dashboard {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100vh;
+
+  background: rgb(255 0 221);
+}
+
+.employee-navigation {
+  width: 34%;
+  height: 100vh;
+  font-family: "Mona Sans", sans-serif;
+  background: radial-gradient(345.33% 100% at 50% 0%, #1f1f1f 0%, #070707 20.97%);
+}
+
+.employee-test {
+  width: 100%;
+  height: 100%;
+  background: green;
+}
+
+.employee-header {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+
+  width: 100%;
+  height: 3rem;
+  margin: 0;
+  padding: 0;
+
+  font-size: 0.8rem;
+  color: white;
+
+  background: #070707;
+}
+
+.header-item {
+  margin-right: 1rem;
+  font-family: "Mona Sans", sans-serif;
+  font-weight: 400;
+}
+
+.main-text {
+  margin-bottom: 0.5rem;
+
+  text-align: center;
+
+  background: linear-gradient(90deg, rgb(230 230 230 / 24%) 0%, #e6e6e6 50%, rgb(230 230 230 / 24%) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+}
+
+.dashboard-title {
+  margin: 0;
+  padding: 1rem;
+  font-weight: 500;
+}
+
+.employee-list {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: max-content;
+  margin: 0;
+  padding: 0;
+}
+
+.employee-list-element {
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  height: 3rem;
+  padding-left: 2rem;
+
+  color: #a0a0a0;
+  text-decoration: none;
+}
+
+.employee-list-element:hover {
+  color: white;
+  background: #a0a0a0;
+}
+
+.employee-logout {
+  position: absolute;
+  bottom: 0;
+
+  width: 23.5%;
+  padding-left: 1rem;
+
+  text-decoration: none;
+}
+
+.profile-image {
+  width: 2.1rem;
+  height: 2.1rem;
+  margin-right: 1rem;
+
+  background: #a0a0a0;
+  border-radius: 50%;
+}
+
+.employee-list-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
